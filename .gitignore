@@ -1,0 +1,18 @@
+# Large or re-creatable files (GitHub refuses files over 100 MB)
+cache/
+weights/
+results/E21/
+Knee_Dataset/train/
+Knee_Dataset/val/
+Knee_Dataset/auto_test/
+
+# Python / Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.pyc
+
+# Report (keep private until it has been graded)
+*.docx
+*.pdf

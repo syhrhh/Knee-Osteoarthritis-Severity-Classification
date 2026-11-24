@@ -1,0 +1,15 @@
+# Packages the Streamlit dashboard needs on Streamlit Community Cloud.
+# IMPORTANT: set scikit-learn to the SAME version you trained with,
+# otherwise the saved SVM / Random Forest models may not load.
+# Check yours with:  python -m pip show scikit-learn
+scikit-learn==1.9.1
+streamlit
+numpy
+pandas
+opencv-python-headless
+scikit-image
+joblib
+plotly
+altair
+pillow
+tensorflow-cpu
